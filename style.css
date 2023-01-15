@@ -1,0 +1,24 @@
+table{
+  border-collapse: collapse;
+
+}
+tr,td,th{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+tr:nth-child(1n){
+  background: rgb(200, 247, 166);
+     }
+   
+     tr:nth-child(2n){
+  background: rgb(166, 243, 247);
+     }
+       
+     tr:nth-child(3n){
+  background: rgb(223, 169, 248);
+     }
+     
+     tr:nth-child(4n){
+  background: rgb(247, 166, 244);
+     }
